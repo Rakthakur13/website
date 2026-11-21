@@ -1,0 +1,51 @@
+#heading {
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    transform: translate(70% , 70%);
+    color: red;
+    font-size: 45px;
+    z-index: 3;
+
+}
+ 
+        
+            body {
+                font-family: peachpuff;
+                margin: 0;
+            }
+            
+          nav {
+            background-color: blue;
+            padding: 20px;
+
+          }
+
+          a {
+            color: White;
+            border: 15px;
+            padding: 10px 20px;
+            cursor: pointer;
+          }
+
+          h1 {
+            text-align: center;
+
+          }
+
+          a:hover {
+            background-color: red;
+          }
+
+        .slider {
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.slider img {
+  display: inline-block;
+  width: 100%;
+}
+
+        
+    
